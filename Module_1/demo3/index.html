@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,11 +8,19 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Manip DOM</title>
-    <script src="script.js" defer></script>
+
+    <script src="dist/bundle.js" defer></script>
 </head>
 <body>
-    <label for="city" class="cities">Villes</label>
-    <select id="city"></select>
+    <h1>Utilisation de Webpack et Tailwindcss</h1>
+    <div class="flex justify-center">
+        <div class="border border-amber-600 rounded-3xl p-4 m-4">
+            <label for="city" class="cities">Villes : </label>
+            <select id="city"></select>
+        </div>
+
+    </div>
+
 
 
 </body>
